@@ -1,0 +1,11 @@
+body{
+    background: linear-gradient(to right, rgb(199, 19, 19), rgb(29, 197, 40));
+    color: white;
+    height: 100vh;
+    font-family: cursive;
+    font-size: 20px;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
