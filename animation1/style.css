@@ -1,0 +1,47 @@
+.bloke{
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to right, red, blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    margin: 40px auto;
+    color: white;
+    transition: all 0.5s ease;
+}
+.anime1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.anime2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anime3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anime4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anime5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anime6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anime1:hover{
+    
+    box-shadow: 0 0 0 35px yellow inset;
+}
