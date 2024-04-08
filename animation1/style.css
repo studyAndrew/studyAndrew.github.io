@@ -20,6 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0.5;
 }
 .anime3{
     display: flex;
@@ -36,12 +37,43 @@
     align-items: center;
     justify-content: center;
 }
-.anime6{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.p{
+    animation: flip 1s linear 0.5s 500;
+}
+@keyframes flip{
+    100%{
+        transform: rotateZ(360deg);
+    }
 }
 .anime1:hover{
-    
     box-shadow: 0 0 0 35px yellow inset;
+}
+.anime2:hover{
+    opacity: 1;
+}
+.anime3:hover{
+    transform: scale(1.3);
+}
+.anime4:hover{
+    border-radius: 500px;
+    width: 550px;
+}
+.anime5:hover{
+    transform: rotateZ(20deg);
+    margin: 100px auto;
+}
+.anime7{
+    animation: neznau 0.01s ease 0s 1488 alternate;
+}
+@keyframes neznau {
+    38%{
+        opacity: 0;
+    }
+    58%{transform: scale(4);}
+    75%{
+        transform: rotateZ(90deg);
+    }
+    100%{
+        transform: skew(10deg,5degS);
+    }
 }
