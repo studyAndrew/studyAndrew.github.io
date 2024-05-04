@@ -1,0 +1,55 @@
+body{
+    padding: 0;
+    background: url(https://kartinki.pics/uploads/posts/2020-11/thumbs/1606688673_29-p-bmw-na-chernom-fone-57.jpg);
+    color: white;
+}
+.menu{
+    background: rgb(60, 26, 148);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 45px;
+    box-shadow: 0 5px 25px 10px white;
+}
+.button{
+    background: rgb(23, 103, 141);
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.zagolovok{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-size: 25px;
+}
+img{
+    height: 450px;
+    width: 100%;
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+}
+table{
+    background: linear-gradient(to right, rgb(23, 16, 16), blue);
+    border: 3px solid rgb(255, 255, 255);
+}
+th{
+    border: 4px solid rgb(0, 0, 0);
+}
+td{
+    border: 2px solid rgb(0, 0, 0);
+}
+a:hover{
+    color: red;
+}
